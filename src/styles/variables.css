@@ -1,0 +1,43 @@
+:root {
+  --color-brand: #303891;
+  --color-brand-dark: #252d7b;
+  --color-canvas: #f6f7fa;
+  --color-surface: #fff;
+  --color-ink: #24283b;
+  --color-muted: #636b7d;
+  --color-line: #e9ebf1;
+  --color-accent: #e5b05b;
+  --font-body: Arial, Helvetica, sans-serif;
+  --font-display: Georgia, 'Times New Roman', serif;
+  --text-xs: .75rem;
+  --text-sm: .8125rem;
+  --text-base: .875rem;
+  --text-lg: clamp(1rem, 1.1vw, 1.125rem);
+  --text-title: clamp(1.8rem, 2.6vw, 2.35rem);
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --page-space: clamp(1rem, 2.5vw, 2.5rem);
+  --container-wide: 96rem;
+  --sidebar-width: 13rem;
+  --header-height: 4.25rem;
+  --radius-sm: .25rem;
+  --radius-md: .5rem;
+  --radius-full: 999px;
+  --shadow-card: 0 2px 6px #24283b05, 0 1px 2px #24283b04;
+  --z-header: 30;
+  --z-nav: 20;
+  --z-skip: 50;
+  --transition-fast: 160ms;
+  --animation-time: 240ms;
+}
+
+@theme inline {
+  --color-primary: var(--color-brand);
+  --font-sans: var(--font-body);
+}
