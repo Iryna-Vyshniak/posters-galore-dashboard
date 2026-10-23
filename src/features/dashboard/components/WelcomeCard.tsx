@@ -17,7 +17,7 @@ export function WelcomeCard() {
       </div>
       <div className="welcome-content">
         <p className="eyebrow">MAKE YOURSELF AT HOME</p>
-        <h2 id="welcome-title">Welcome to Posters Galore.</h2>
+        <h1 id="welcome-title">Welcome to Posters Galore.</h1>
         <p>
           Art for every wall, and a little room to grow. This is your space to
           keep an eye on orders, meet your customers, and see what’s making an
